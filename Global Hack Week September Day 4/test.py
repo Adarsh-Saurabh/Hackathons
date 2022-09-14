@@ -1,12 +1,12 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread('suraj.jpg')
+image = cv2.imread('1.png')
 image = cv2.cvtColor(image , cv2.COLOR_BGR2RGB)
 gray = cv2.cvtColor(image , cv2.COLOR_BGR2GRAY)
 eye_cascade = cv2.CascadeClassifier("haarcascade_eye.xml")
 eyes = eye_cascade.detectMultiScale(gray)
-filter = cv2.cvtColor(cv2.imread('blue.png') , cv2.COLOR_BGR2RGB)
+filter = cv2.cvtColor(cv2.imread('Blue2.png') , cv2.COLOR_BGR2RGB)
 for x, y, w, h in eyes:
     centre_x = x+w/2 
     centre_y = y + h/2
