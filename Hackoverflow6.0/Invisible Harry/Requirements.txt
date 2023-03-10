@@ -1,0 +1,9 @@
+## For this to work you need to have to run following commands:
+ pip install opencv-python
+ pip install numpy
+
+
+## Now you need to run the camera.py first and then the main.py
+## Now follow the instrutions given in code.
+
+#'*** Note :- This program has only 3 features as of now but I am planning to improve on this.'
