@@ -12,7 +12,7 @@ To use Teach2Learn in your own environment, follow these steps:
 
 2. **Navigate to the Project Folder**
 - Move into the project folder using the `cd` command:
-- `cd '.\Awaiken hacks 2023\'`
+- `cd '.\CatalystXAI\'`
 
 
 3. **Install Dependencies**
